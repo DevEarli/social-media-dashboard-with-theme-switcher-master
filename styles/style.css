@@ -19,7 +19,7 @@ body header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
+  width: 85%;
   height: 80px;
   margin: auto;
   -webkit-box-pack: justify;
@@ -56,7 +56,7 @@ body header {
 }
 
 body header .social-parent h2 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -66,7 +66,7 @@ body header .social-parent h2.dark-mode {
 }
 
 body header .social-parent p {
-  font-size: 0.78rem;
+  font-size: 0.88rem;
   font-weight: 700;
   color: #63687e;
 }
@@ -97,9 +97,9 @@ body header .darkmode-parent p {
 }
 
 body header .darkmode-parent .toggle-parent {
-  width: 46px;
-  height: 23px;
-  padding: 3px;
+  width: 48px;
+  height: 25px;
+  padding: 4px;
   background: #aeb3cb;
   border-radius: 100px;
   cursor: pointer;
@@ -157,8 +157,8 @@ body .parent-card-one {
   display: grid;
   -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 25px;
-  width: 80%;
+  gap: 32px;
+  width: 85%;
   margin: 50px auto;
 }
 
@@ -200,7 +200,7 @@ body .parent-card-one .card .parent-icon {
 }
 
 body .parent-card-one .card .parent-icon p {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 700;
   color: #63687e;
   margin-left: 10px;
@@ -211,13 +211,13 @@ body .parent-card-one .card .parent-icon p.dark-mode {
 }
 
 body .parent-card-one .card .total {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 700;
 }
 
 body .parent-card-one .card .followers {
   margin-bottom: 25px;
-  font-size: 0.7rem;
+  font-size: 0.81rem;
   color: #63687e;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -278,12 +278,12 @@ body .parent-card-one .youtube .parent-stat p {
 }
 
 body .overview {
-  width: 80%;
+  width: 85%;
   margin: 0 auto 80px;
 }
 
 body .overview h2 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #63687e;
   margin-bottom: 25px;
   -webkit-transition: 0.5s;
@@ -302,8 +302,8 @@ body .overview .parent-card-overview {
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
   row-gap: 20px;
-  -webkit-column-gap: 25px;
-          column-gap: 25px;
+  -webkit-column-gap: 32px;
+          column-gap: 32px;
 }
 
 @media screen and (max-width: 500px) {
@@ -320,6 +320,7 @@ body .overview .parent-card-overview .card-overview {
       grid-template-columns: repeat(2, 1fr);
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
+  row-gap: 5px;
   padding: 25px 20px 20px;
   background-color: #f0f2fa;
   border-radius: 7px;
@@ -333,7 +334,7 @@ body .overview .parent-card-overview .card-overview:hover {
 }
 
 body .overview .parent-card-overview .card-overview .page-view {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 700;
   color: #63687e;
 }
@@ -343,7 +344,7 @@ body .overview .parent-card-overview .card-overview .page-view.dark-mode {
 }
 
 body .overview .parent-card-overview .card-overview .total-overview {
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
