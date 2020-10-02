@@ -1,0 +1,39 @@
+@mixin mobile-phone {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+// @keyframes animate1 {
+//   from {
+//     transform: translateX(0);
+
+//     background-color: $Light-Bg;
+//   }
+
+//   to {
+//     transform: translateX(-21px);
+//     opacity: 1;
+//     background-color: $Dark-Pattern;
+//   }
+// }
+
+// @keyframes animate2 {
+//   from {
+//     transform: scale(0) translateX(-21px);
+//     opacity: 0;
+//     background-color: $Dark-Pattern;
+//   }
+
+//   to {
+//     transform: scale(1) translateX(0);
+//     opacity: 1;
+//     background-color: $Light-Bg;
+//   }
+// }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
