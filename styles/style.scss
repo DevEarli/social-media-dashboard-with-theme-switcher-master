@@ -11,7 +11,7 @@ body {
 
   header {
     display: flex;
-    width: 80%;
+    width: 85%;
     height: 80px;
     margin: auto;
     justify-content: space-between;
@@ -33,7 +33,7 @@ body {
       }
 
       h2 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         transition: 0.5s;
       }
 
@@ -41,7 +41,7 @@ body {
         color: $Dark-Text2;
       }
       p {
-        font-size: 0.78rem;
+        font-size: 0.88rem;
         font-weight: 700;
         color: $Light-Text1;
       }
@@ -64,9 +64,9 @@ body {
       }
 
       .toggle-parent {
-        width: 46px;
-        height: 23px;
-        padding: 3px;
+        width: 48px;
+        height: 25px;
+        padding: 4px;
         background: $Light-Toggle;
         border-radius: 100px;
         cursor: pointer;
@@ -117,8 +117,8 @@ body {
   .parent-card-one {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 25px;
-    width: 80%;
+    gap: 32px;
+    width: 85%;
     margin: 50px auto;
 
     .card {
@@ -151,7 +151,7 @@ body {
         margin-bottom: 20px;
 
         p {
-          font-size: 0.7rem;
+          font-size: 0.75rem;
           font-weight: 700;
           color: $Light-Text1;
           margin-left: 10px;
@@ -163,13 +163,13 @@ body {
       }
 
       .total {
-        font-size: 3rem;
+        font-size: 3.5rem;
         font-weight: 700;
       }
 
       .followers {
         margin-bottom: 25px;
-        font-size: 0.7rem;
+        font-size: 0.81rem;
         color: $Light-Text1;
         text-transform: uppercase;
         letter-spacing: 4px;
@@ -236,11 +236,11 @@ body {
   }
 
   .overview {
-    width: 80%;
+    width: 85%;
     margin: 0 auto 80px;
 
     h2 {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       color: $Light-Text1;
       margin-bottom: 25px;
       transition: 0.5s;
@@ -255,7 +255,7 @@ body {
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(2, 1fr);
       row-gap: 20px;
-      column-gap: 25px;
+      column-gap: 32px;
 
       @include mobile-phone {
         grid-template-columns: 1fr;
@@ -264,6 +264,7 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
+        row-gap: 5px;
         padding: 25px 20px 20px;
         background-color: $Light-Card-Bg;
         border-radius: 7px;
@@ -275,7 +276,7 @@ body {
         }
 
         .page-view {
-          font-size: 0.8rem;
+          font-size: 1rem;
           font-weight: 700;
           color: $Light-Text1;
         }
@@ -285,7 +286,7 @@ body {
         }
 
         .total-overview {
-          font-size: 1.9rem;
+          font-size: 2rem;
           font-weight: 700;
         }
 
